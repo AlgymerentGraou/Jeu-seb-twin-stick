@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.AI;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
@@ -7,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
 
     private PlayerControls controls;
-    private NavMeshAgent agent;
+    private Rigidbody2D rb;
 
     private Vector2 moveInput;
     private Vector2 aimInput;
@@ -29,20 +28,21 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    // ⚠️ On utilise FixedUpdate pour tout ce qui touche au Rigidbody
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + moveInput * speed * Time.fixedDeltaTime);
     }
 
     void Update()
     {
-        // déplacement sur NavMesh
-        Vector3 move = new Vector3(moveInput.x, moveInput.y, 0);
-        agent.Move(move * speed * Time.deltaTime);
-
         // rotation stick droit
         if (aimInput.sqrMagnitude > 0.1f)
         {
             angle = Mathf.Atan2(aimInput.y, aimInput.x) * Mathf.Rad2Deg;
-
         }
         transform.rotation = Quaternion.Euler(0, 0, angle);
     }

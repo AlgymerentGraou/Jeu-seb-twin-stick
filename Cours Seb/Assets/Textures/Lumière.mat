@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sol 1
+  m_Name: "Lumi\xE8re"
   m_Shader: {fileID: -6465566751694194690, guid: 80c8cade0cc71834287d4f6172ceac2a, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -28,7 +28,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Light_Texture:
-        m_Texture: {fileID: 2800000, guid: 5f642974cad28f44789fee9f0374f693, type: 3}
+        m_Texture: {fileID: 2800000, guid: 95b579d7402bfe845a6780af4998c0ab, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -43,8 +43,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ShadowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Shadow_Texture:
-        m_Texture: {fileID: 2800000, guid: 3349bc2846c13f74f8587de1ffe73cf7, type: 3}
+        m_Texture: {fileID: 2800000, guid: 53251cc31297347489b88edf94848506, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -72,6 +76,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _MainTex: {r: 4, g: 4, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Tilling: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1104234070684098557
