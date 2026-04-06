@@ -1,41 +1,52 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerShoot2D : MonoBehaviour
-{    
-    [Tooltip("ShootingPoint Transform must be outside of the Avatar Collider")] 
+{
+    [Tooltip("ShootingPoint Transform must be outside of the Avatar Collider")]
     public Transform shootingPoint;
-    public float ammoCount;
+    public int ammoCount; // ← int au lieu de float
 
-    public KeyCode ShootButton;
-    
     [Header("Prefab Settings")]
-    [Tooltip("Specify HitTag & Dammages in Bullet Script.")]
-    public GameObject ammoPrefab;
+    [Tooltip("Specify HitTag & Damages in Bullet Script.")]
+    public GameObject bulletPrefab; // ← renommé en bulletPrefab
     public float bulletSpeed;
 
-    // Start is called before the first frame update
-    void Start()
+    private PlayerControls _controls;
+    private Vector2 _aimDirection = Vector2.right;
+
+  void Awake()
+{
+    _controls = new PlayerControls();
+
+    _controls.Player.Aim.performed += ctx => _aimDirection = ctx.ReadValue<Vector2>();
+    _controls.Player.Aim.canceled += ctx => { }; // ← on ne réinitialise plus la direction
+
+    _controls.Player.Shoot.performed += ctx => Shoot();
+}
+
+    void OnEnable() => _controls.Enable();
+    void OnDisable() => _controls.Disable();
+
+    public void Update()
     {
-        
+        //Debug.Log(_aimDirection);        
     }
 
-    // Update is called once per frame
-    void Update()
-    {    
-        
-        if (Input.GetKeyDown(ShootButton) && ammoCount>0)
-        {    
-            //Spawn Prefab
-            GameObject bullet = Instantiate(ammoPrefab, shootingPoint.position, transform.rotation);
-            bullet.transform.rotation = shootingPoint.rotation;
+    void Shoot()
+    {
+        if (ammoCount <= 0) return;
 
-            //Add Prefab Velocity
-            bullet.GetComponent<Rigidbody2D>().AddForce(bullet.transform.up * bulletSpeed, ForceMode2D.Impulse);
+        // si le stick est au repos, on ne tire pas
+        if (_aimDirection == Vector2.zero) return;
 
-            ammoCount--;
-            print("it remains " + ammoCount + " bullets"); 
-        }   
+        GameObject bullet = Instantiate(bulletPrefab, shootingPoint.position, Quaternion.identity);
+
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        rb.linearVelocity = _aimDirection.normalized * bulletSpeed;
+        ammoCount--;
+        Debug.Log("alors : " + _aimDirection.normalized * bulletSpeed + " et  " + _aimDirection);
+
+        //print("Il reste " + ammoCount + " balles");
     }
 }

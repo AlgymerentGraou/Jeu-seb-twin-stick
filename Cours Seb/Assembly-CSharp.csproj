@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\control_lumiere.cs" />
     <Compile Include="Assets\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\PuzzleKey.cs" />
+    <Compile Include="Assets\Scripts\door.cs" />
     <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\flambeau.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\PuzzleKeyLocker.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Scripts\AmmoBox.cs" />
+    <Compile Include="Assets\Scripts\bullet.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
