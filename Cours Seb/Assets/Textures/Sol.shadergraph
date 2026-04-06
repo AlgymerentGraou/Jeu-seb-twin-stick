@@ -148,6 +148,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "2d1a3ff1ebaa49838775218ad54d5e98"
+                },
+                "m_SlotId": 7
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "33e5e03b9ee349269eb7bf822b4c9205"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "3b4951e4a42a4931952c817087891db6"
                 },
                 "m_SlotId": 3
@@ -1858,7 +1872,7 @@
     "m_ObjectId": "b0ee91f1338f4120bf2d8a4ea337fb81",
     "m_Title": "Light Mask",
     "m_Position": {
-        "x": -1191.0,
+        "x": -1191.0001220703125,
         "y": 1231.0
     }
 }
