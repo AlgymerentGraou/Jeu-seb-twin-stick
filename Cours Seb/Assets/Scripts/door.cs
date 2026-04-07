@@ -6,8 +6,8 @@ public class Door : MonoBehaviour
     public bool isOpen = false;
 
     [Header("Sprites")]
-    public Sprite openSprite;   // ← assigne ton sprite ouvert dans l'Inspector
-    public Sprite closedSprite; // ← assigne ton sprite fermé dans l'Inspector
+    public Sprite openSprite;
+    public Sprite closedSprite;
 
     private SpriteRenderer _spriteRenderer;
     private Collider2D _collider;
@@ -19,9 +19,9 @@ public class Door : MonoBehaviour
         _collider = GetComponent<Collider2D>();
 
         if (_spriteRenderer == null) Debug.LogError("Aucun SpriteRenderer trouvé !");
-        if (_collider == null) Debug.LogError("Aucun Collider2D trouvé !");
-        if (openSprite == null) Debug.LogError("Aucun sprite 'ouvert' assigné !");
-        if (closedSprite == null) Debug.LogError("Aucun sprite 'fermé' assigné !");
+        if (_collider == null)       Debug.LogError("Aucun Collider2D trouvé !");
+        if (openSprite == null)      Debug.LogError("Aucun sprite 'ouvert' assigné !");
+        if (closedSprite == null)    Debug.LogError("Aucun sprite 'fermé' assigné !");
 
         ApplyState();
         _previousState = isOpen;
@@ -36,9 +36,15 @@ public class Door : MonoBehaviour
         }
     }
 
+    // ← appelé par FlambeauGroup
+    public void Open()
+    {
+        isOpen = true;
+    }
+
     void ApplyState()
     {
         _spriteRenderer.sprite = isOpen ? openSprite : closedSprite;
-        _collider.enabled = !isOpen; // collision active = porte fermée
+        _collider.enabled = !isOpen;
     }
 }

@@ -5049,7 +5049,7 @@ GameObject:
   - component: {fileID: 8913481965390221526}
   m_Layer: 0
   m_Name: Flambeau
-  m_TagString: Untagged
+  m_TagString: Flambeau
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5192,6 +5192,7 @@ MonoBehaviour:
   isLightOn: 1
   minAnimSpeed: 0.45
   maxAnimSpeed: 1.8
+  burstCount: 30
 --- !u!114 &8913481965390221526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5209,3 +5210,4 @@ MonoBehaviour:
   flickerSpeed: 0.5
   minIntensity: 0.33
   maxIntensity: 4
+  fadeInDuration: 1.5
