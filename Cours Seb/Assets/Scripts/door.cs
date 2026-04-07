@@ -19,9 +19,9 @@ public class Door : MonoBehaviour
         _collider = GetComponent<Collider2D>();
 
         if (_spriteRenderer == null) Debug.LogError("Aucun SpriteRenderer trouvé !");
-        if (_collider == null)       Debug.LogError("Aucun Collider2D trouvé !");
-        if (openSprite == null)      Debug.LogError("Aucun sprite 'ouvert' assigné !");
-        if (closedSprite == null)    Debug.LogError("Aucun sprite 'fermé' assigné !");
+        if (_collider == null) Debug.LogError("Aucun Collider2D trouvé !");
+        if (openSprite == null) Debug.LogError("Aucun sprite 'ouvert' assigné !");
+        if (closedSprite == null) Debug.LogError("Aucun sprite 'fermé' assigné !");
 
         ApplyState();
         _previousState = isOpen;
@@ -36,10 +36,14 @@ public class Door : MonoBehaviour
         }
     }
 
-    // ← appelé par FlambeauGroup
     public void Open()
     {
         isOpen = true;
+    }
+
+    public void Close() // ← nouvelle méthode
+    {
+        isOpen = false;
     }
 
     void ApplyState()

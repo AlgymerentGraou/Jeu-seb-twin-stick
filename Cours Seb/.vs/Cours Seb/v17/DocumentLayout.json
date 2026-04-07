@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|c:\\users\\a.tetrel\\documents\\git\\jeu-seb-twin-stick\\cours seb\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|c:\\users\\a.tetrel\\documents\\git\\jeu-seb-twin-stick\\cours seb\\assets\\scripts\\doorclosetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doorclosetrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|c:\\users\\a.tetrel\\documents\\git\\jeu-seb-twin-stick\\cours seb\\assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|c:\\users\\a.tetrel\\documents\\git\\jeu-seb-twin-stick\\cours seb\\assets\\scripts\\playershoot2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\assets\\scripts\\playershoot2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playershoot2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\assets\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1ABDA2AC-1BE6-388B-08A9-5443CAE0D537}|Assembly-CSharp.csproj|C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\assets\\scripts\\flambeau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,6 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DoorCloseTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Scripts\\DoorCloseTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorCloseTrigger.cs",
+              "ToolTip": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Scripts\\DoorCloseTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorCloseTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T17:20:20.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "bullet.cs",
               "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Scripts\\bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\bullet.cs",
@@ -62,12 +79,11 @@
               "RelativeToolTip": "Assets\\Scripts\\bullet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T20:12:46.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T20:12:46.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GridEditorUtility.cs",
               "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73\\Editor\\GridEditorUtility.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73\\Editor\\GridEditorUtility.cs",
@@ -79,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "BulletScript.cs",
               "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Scripts\\BulletScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BulletScript.cs",
@@ -91,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "PlayerControls.cs",
               "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Player\\PlayerControls.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\PlayerControls.cs",
@@ -103,19 +119,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "door.cs",
               "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Scripts\\door.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\door.cs",
               "ToolTip": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Scripts\\door.cs",
               "RelativeToolTip": "Assets\\Scripts\\door.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAwBkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:33:16.274Z"
+              "WhenOpened": "2026-04-06T16:33:16.274Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "flambeau.cs",
               "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Scripts\\flambeau.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\flambeau.cs",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "control_lumiere.cs",
               "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Scripts\\control_lumiere.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\control_lumiere.cs",
@@ -139,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Sprite-Lit-Default.shader",
               "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Library\\PackageCache\\com.unity.render-pipelines.universal@1e87cf1dccb8\\Shaders\\2D\\Sprite-Lit-Default.shader",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@1e87cf1dccb8\\Shaders\\2D\\Sprite-Lit-Default.shader",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Player\\PlayerMovement.cs",
@@ -163,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlayerShoot2D.cs",
               "DocumentMoniker": "C:\\Users\\a.tetrel\\Documents\\Git\\Jeu-seb-twin-stick\\Cours Seb\\Assets\\Scripts\\PlayerShoot2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerShoot2D.cs",
@@ -171,8 +188,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerShoot2D.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwDEAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T10:55:42.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T10:55:42.142Z"
             }
           ]
         }
